@@ -15,4 +15,5 @@ PINNs-Demo
 > numpy == 1.22.3 \
 > scipy == 1.8.0 \
 > scikit-optimize == 0.9.0 \
-> pytorch-gpu == 1.10.0 
+> pytorch-gpu == 1.10.0 \
+> matplotlib==3.5.1
