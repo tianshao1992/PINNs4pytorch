@@ -4,7 +4,7 @@ PINNs-Demo
 
 - 各个jupyter里有可运行算例
 
-- basic_model.py 中为自动微分、两种网络形式和自适应权重调节
+- basic_model.py 中为自动微分、两种网络形式和自适应权重调节、时间因果关联权重
 
 - process_data.py 中为求解域离散点采样方法以及数据归一化方式
 
