@@ -127,7 +127,7 @@ class matplotlib_vision(object):
         plt.xticks(fontproperties='Times New Roman', size=15)
 
     def plot_fields_tri(self, out_true, out_pred, coord, cell, cmin_max=None, fmin_max=None, field_name=None,
-                        cmap='RdBu', ):
+                        cmap='RdBu_r', ):
 
         plt.clf()
         Num_fields = out_true.shape[-1]
@@ -199,7 +199,7 @@ class matplotlib_vision(object):
             plt.title('field error$' + field_name[fi] + '$' + '', fontsize=15)
 
     def plot_fields_ms(self, out_true, out_pred, coord, cmin_max=None, fmin_max=None, field_name=None,
-                       cmap='RdBu', ):
+                       cmap='RdBu_r', ):
 
         plt.clf()
         Num_fields = out_true.shape[-1]

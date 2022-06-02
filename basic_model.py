@@ -93,7 +93,7 @@ class DeepModel_single(nn.Module):
         try:
             checkpoint = torch.load(File)
             self.load_state_dict(checkpoint['model'])        # 从字典中依次读取
-            start_epoch = checkpoint['epoch']
+            start_epoch = len(checkpoint['log_loss'])
             print("load start epoch at epoch " + str(start_epoch))
         except:
             print("load model failed！ start a new model.")
